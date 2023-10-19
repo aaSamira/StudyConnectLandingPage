@@ -1,0 +1,287 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; 
+    margin: 0;
+    padding: 0;
+    color: #000; 
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 35px;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    width: 200px; 
+    height: auto; 
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#intro {
+    background-color: #000; 
+    padding: 40px;
+    display: flex; 
+    align-items: center; 
+}
+
+#intro .intro-content {
+    flex: 1; 
+    max-width: 50%;
+    padding-right: 80px; 
+}
+
+#intro .short-text  {
+    text-align: left;
+    color: #fff; 
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+#intro .large-text {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 5%;
+}
+
+#intro .intro-image {
+    max-width: 40%; 
+    height: auto;
+}
+
+.download-button {
+    display: block;
+    width: 100px;
+    margin: 30px 0;
+    padding: 15px 30px;
+    background-color: #55cbca;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 5%;
+
+    
+}
+
+.download-button:hover {
+    background-color: #3f9e9d;
+    
+}
+
+
+.F1-content {
+ 
+    margin-top: 100px;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.F1-content p.large-text {
+   
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3966ae;
+}
+.F1-content h3 {
+    font-size: 40px; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.F1-content p {
+    font-size: 20px; 
+    
+}
+
+.F1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: left; 
+    
+}
+
+.F1 .platform-image {
+    
+    max-width: 35%; 
+    height: auto; 
+    margin-right: 200px; 
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+
+.F2 {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 5%;
+    background-color: #fff; 
+    padding: 50px;
+}
+
+
+.F2-content {
+    margin-top: 100px;
+    text-align: right; 
+    padding-right: 5%;
+}
+
+.F2-content h3 {
+    
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.F2-content p {
+    
+    font-size: 20px; 
+}
+
+.F2-content p.large-text {
+    
+    margin-top: 100px;
+    font-size: 20px;
+    text-align: right; 
+    font-weight: bold;
+    color: #3966ae;
+}
+
+
+
+.F2 .share-image {
+    
+    max-width: 30%;
+    height: auto;
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+    
+}
+
+.F3 {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.F3-content {
+    flex: 1; 
+    max-width: 50%;
+    padding-right: 80px; 
+}
+
+.F3-content p.large-text {
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3966ae;
+}
+
+.F3-content h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.F3-content p {
+    font-size: 20px;
+}
+
+.F3 .questions-image {
+    max-width: 40%; 
+    height: auto;
+    margin-right: 200px; 
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#descarga {
+    background-color: #173d7a;
+    padding-top: 60px;
+}
+
+#descarga h2 {
+    margin-right: 200px;
+    margin-left: 200px;
+    font-size: 30px;
+    color: #fff;
+    align-items: center;
+    font-family: 'Open Sans';
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #55cbca;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #55cbca;
+    color: #fff;
+}
+
+#copy {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    
+    padding: 100px 0; 
+}
+
+#copy .media-image {
+    max-width: 15%;
+    height: auto;
+    float: right;
+    margin-right: 100px;
+}
+
+#copy .logo-image {
+    max-width: 15%;
+    height: auto;
+    float: left;
+    margin-left: 100px;
+}
